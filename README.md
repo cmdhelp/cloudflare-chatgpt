@@ -21,10 +21,11 @@ Open Application > Cookies.
 ### How to request data
 id && message_id ：Generated using uuid, it is recommended to use v4
 url: xxxxxx
-Method : POST
-body :
-{
-  "id" : "d8cc4969-23c8-4d2c-b5a9-7b85331d678c",
-  "message" : "hello",
-  "message_id" :"7e50d02c-4c79-407a-b8a9-56127d197c86"
-}
+Method : 
+POST
+#### body :
+  {
+    "id" : "d8cc4969-23c8-4d2c-b5a9-7b85331d678c",
+    "message" : "hello",
+    "message_id" :"7e50d02c-4c79-407a-b8a9-56127d197c86"
+  }
